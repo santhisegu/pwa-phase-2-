@@ -1,0 +1,133 @@
+/*This is for desktop view*/
+body{
+	background: lightgrey;
+}
+.main{
+	background: lightblue;
+	margin:7%;
+	padding: 5%;
+	width:80%;
+	height: 90%;
+	display:flex;
+	justify-content: space-around;
+	border-radius: 7%;
+	box-shadow: 1px 1px 1px 1px;
+}
+.left{
+	background:lightpink;
+	margin: 4%;
+	width: 70%;
+	height: 55%;
+	text-align: center;
+	border-radius: 4%;
+	font-size: 120%;
+	box-shadow: 3px 3px 3px 3px;
+}
+img{
+	height: 40%;
+	width: 45%;
+	margin-top:5%;
+	border-radius: 7%
+}
+.right{
+	background: #E8D9D5;
+	margin: 2%;
+	width: 120%;
+	height: 120%;
+	font-size: 120%;
+	text-align: left;
+	border-radius: 3%;
+	box-shadow: 2px 2px 2px 2px;
+	padding: 10px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+/*This is for mobile view*/
+@media screen and (min-width: 320px) and (max-width: 500px) {
+body{
+	background: #A09DE2;
+}
+.main{
+	background: #37F577;
+	margin:2%;
+	display:inline-block;
+	border-radius: 3%;
+	width: 100%;
+	box-shadow: 1px 1px 1px 1px;
+	padding: 0.5%;
+}
+.left{
+	background:#37DFF5;
+	padding: 2%;
+	margin:15%;
+	width: 65%;
+	height:30%;
+	text-align: center;
+	border-radius: 3%;
+	box-shadow: 3px 3px 3px 3px;
+}
+img{
+	height: 40%;
+	width: 45%;
+	margin-top:5%;
+	border-radius: 7%
+}
+.right{
+	background: #FADBD8;
+	margin: 3%;
+	width: 90%;
+	text-align: left;
+	border-radius: 3%;
+	box-shadow: 2px 2px 2px 2px;
+	padding-left: 2%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+}
+/*This is for tablet view*/
+@media screen and (min-width: 501px) and (max-width: 800px) {
+body{
+	background: #EDF33C;
+}
+.main{
+	background: #37F577;
+	margin:5%;
+	width: 90%;
+	display:inline-block;
+	border-radius: 3%;
+	/*box-shadow: 1px 1px 1px 1px;*/
+}
+.left{
+   margin: 12%;
+font-size: 100%;
+width: 50%;
+padding: 5%;
+border-radius: 3%;
+background: lightblue;
+
+}
+img{
+	height: 40%;
+	width: 70%;
+	margin-top: 5%
+	border-radius: 7%
+}
+.right{
+	background: #FB7970;
+	margin: 4%;
+	width: 90%;
+	text-align: left;
+	border-radius: 3%;
+	box-shadow: 2px 2px 2px 2px;
+	padding-left: %;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+}

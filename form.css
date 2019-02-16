@@ -1,0 +1,130 @@
+/*This is for desktop view*/
+#main{
+	background: lightblue;
+	text-align: center;
+}
+header{
+	background: lightgreen;
+	border-radius: 10%;
+	padding: 2%;
+	margin: 1%;
+}
+#main a{
+	text-decoration: none;
+}
+.profile{
+	color:red;
+}
+
+#form{
+	background: lavender;
+	text-align:center;
+}
+.main{
+	background: #ABEBC6;
+	margin:2%;
+	padding: 2%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border-radius: 15%;
+	box-shadow: 1px 1px 1px;
+}
+.sub{
+	background: #85C1E9;
+	width: 84%;
+	padding: 1%;
+	margin: 1%; 
+	border-radius: 10%;
+	box-shadow: 1px 1px 1px;
+	border-top-left-radius: 0%;
+	border-top-right-radius: 0%;
+}
+.sub1{
+	background: #85C1E9;
+	width:35%;
+	margin:1%;
+	padding: 1%;
+	border-radius: 15%;
+	box-shadow: 1px 1px 1px;
+
+}
+input,select{
+	width: 90%;
+	margin: 1%;
+	font-size: 95%;
+}
+button{
+	height: 10%;
+	width:20%;
+	padding: 2%;
+	background: lightpink;
+	border-radius: 50%;
+	font-size: 100%;
+}
+
+/*This is for Mobile View*/
+@media screen and (min-width: 320px) and (max-width: 500px) {
+#main{
+	background: skyblue;
+	text-align: center;
+}
+header{
+	background: lightpink;
+	border-radius: 10%;
+	padding: 2%;
+	margin: 1%;
+}
+#main a{
+	text-decoration: none;
+}
+
+#form{
+	background: lavender;
+	text-align:center;
+}
+.main{
+	background: lightyellow;
+	margin:2%;
+	padding: 2%;
+	display: inline-block;
+	justify-content: space-around;
+	border-radius: 7%;
+	box-shadow: 1px 1px 1px;
+}
+.sub{
+	background: #ABEBC6;
+	width: 84%;
+	padding: 2%;
+	margin: 4%; 
+	padding-left: 4%;
+	border-radius: 10%;
+	box-shadow: 1px 1px 1px;
+	border-top-left-radius: 0%;
+	border-top-right-radius: 0%;
+}
+.sub1{
+	background: #ABEBC6;
+	width:80%;
+	margin:10%;
+	padding: 2%;
+	border-radius: 15%;
+	box-shadow: 1px 1px 1px;
+
+}
+input,select{
+	width: 90%;
+	margin: 1%;
+	font-size: 90%;
+}
+button{
+	height: 10%;
+	width:30%;
+	background: lightgrey;
+	border-radius: 50%;
+	box-shadow: 1px 1px 1px;
+	font-size: 100%;
+}
+
+}
